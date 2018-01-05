@@ -8,7 +8,8 @@
 ## Features
 * Sample component, service, directive and pipe
 * Unit tests with Karma and Jasmine
-* Playground with Angular CLI
+* Playground with Angular CLI to test the library in a 'real application'
+* Linting
 * Automatic versioning
 * Documentation
 
@@ -16,29 +17,33 @@
 
 **Warning: we strongly recommend node >=v6.9.0 and npm >=3.0.0**
 
-`npm i` - Installs everything needed
+`npm i` - Installs project modules
 
-"clean": "rm -Rf dist node_modules playground/node_modules",
-    "install-all": "npm i; cd playground; npm i",
-    "start": "concurrent \"gulp\" \"npm run playground\"",
-    "build": "gulp build",
-    "build:watch": "gulp",
-    "docs": "npm run docs:build",
-    "docs:build": "compodoc -p tsconfig.json -n angular-example-library -d docs --hideGenerator",
-    "docs:serve": "npm run docs:build -- -s",
-    "docs:watch": "npm run docs:build -- -s -w",
-    "link": "cd dist; npm link; cd ../playground; npm link angular-example-library;",
-    "playground": "npm run link && cd playground; ng serve --preserve-symlinks",
-    "test": "tsc -p src/tsconfig.spec.json && karma start karma.conf.js --single-run",
-    "test:watch": "concurrent \"tsc -p src/tsconfig.spec.json -w\" \"karma start karma.conf.js\"",
-    "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
-    "release:patch": "npm run lint && tools/release.sh patch",
+`npm run install-all` - Installs project modules and playground modules
+
+`npm run clean` - Removes every generated folder
+
+`npm run build` - Builds the library using gulp
+
+`npm run build:watch` - Builds the library using gulp waiting for changes
+
+`npm run docs` - Generates all the documentation
+
+`npm start` - Runs the playground and the build process waiting for changes
+
+`npm run link` - Links the library folder in order to use it in the playground with npm link
+
+`npm run test` - Runs the tests with karma and jasmine
+
+`npm run test:watch` - Runs the tests with karma and jasmine waiting for changes
+
+`npm run lint` - Runs the linter
 
 ## Modify this project and make your own angular library
 
 Just in three steps:
 
-1. Rename every occurance of 'angular-example-library' to 'your-library-name'.
+1. Rename every occurrence of 'angular-example-library' to 'your-library-name'.
 2. Modify src folder according to your need.
 3. `npm run build`
 
