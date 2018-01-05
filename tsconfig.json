@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "types": [
+      "jasmine"
+    ],
+    "target": "es5",
+    "module": "es2015",
+    "sourceMap": true,
+    "inlineSources": true,
+    "declaration": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "stripInternal": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "playground/**/*.*",
+    "node_modules/**/*.*"
+  ]
+}

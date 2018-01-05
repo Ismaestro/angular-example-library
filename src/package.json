@@ -1,0 +1,24 @@
+{
+  "name": "angular-example-library",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ismaestro/angular5-example-app.git"
+  },
+  "keywords": ["angular","example","library"],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ismaestro/angular5-example-app/issues"
+  },
+  "main": "angular-example-library.umd.js",
+  "module": "angular-example-library.js",
+  "jsnext:main": "angular-example-library.js",
+  "typings": "angular-example-library.d.ts",
+  "peerDependencies": {
+    "@angular/core": "4.0.0",
+    "@angular/forms": "5.1.3",
+    "rxjs": "5.1.0",
+    "zone.js": "0.8.4",
+    "moment": "2.20.1"
+  }
+}
