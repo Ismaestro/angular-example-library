@@ -1,0 +1,410 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>angular-example-library</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+	    <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="./" class="navbar-brand">angular-example-library</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="./index.html">angular-example-library</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a href="./index.html"  class="active" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                                <li class="link">
+                                    <a  href="./overview.html" 
+                                        
+                                         href="./overview.html" 
+                                        
+                                        >
+                                        <span class="fa fa-th"></span>Overview
+                                    </a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./modules.html" >
+                            <div class="menu-toggler linked" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            >
+                                <span class="fa fa-archive"></span>
+                                <span class="link-name">Modules</span>
+                                <span class="fa fa-angle-up"></span>
+                            </div>
+                        </a>
+                        <ul class="links collapse in"
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="./modules/AppModule.html" >AppModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/SampleModule.html" >SampleModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-components-links"
+                            >
+                            <span class="fa fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="fa fa-angle-up"></span>
+                        </div>
+                        <ul class="links collapse in"
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="./components/AppComponent.html" >AppComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/SampleComponent.html" >SampleComponent</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-directives-links"
+                            >
+                            <span class="fa fa-code"></span>
+                            <span>Directives</span>
+                            <span class="fa fa-angle-up"></span>
+                        </div>
+                        <ul class="links collapse in"
+                                id="xs-directives-links"
+                            >
+                                <li class="link">
+                                    <a href="./directives/SampleDirective.html" >SampleDirective</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-injectables-links"
+                            >
+                            <span class="fa fa-long-arrow-down"></span>
+                            <span>Injectables</span>
+                            <span class="fa fa-angle-up"></span>
+                        </div>
+                        <ul class="links collapse in"
+                                id="xs-injectables-links"
+                            >
+                                <li class="link">
+                                    <a href="./injectables/SamplePipe.html" >SamplePipe</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/SamplePipe.html" >SamplePipe</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/SampleService.html" >SampleService</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./miscellaneous.html" ><span class="fa fa-cubes"></span>Miscellaneous</a>
+                    </li>
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="./index.html">angular-example-library</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a href="./index.html"  class="active" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                                       <li class="link">
+                                           <a  href="./overview.html" 
+                                               
+                                                href="./overview.html" 
+                                               
+                                               >
+                                               <span class="fa fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./modules.html" >
+                                   <div class="menu-toggler linked" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   >
+                                       <span class="fa fa-archive"></span>
+                                       <span class="link-name">Modules</span>
+                                       <span class="fa fa-angle-up"></span>
+                                   </div>
+                               </a>
+                               <ul class="links collapse in"
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="./modules/AppModule.html" >AppModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/SampleModule.html" >SampleModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#components-links"
+                   >
+                                   <span class="fa fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="fa fa-angle-up"></span>
+                               </div>
+                               <ul class="links collapse in"
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="./components/AppComponent.html" >AppComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/SampleComponent.html" >SampleComponent</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#directives-links"
+                   >
+                                   <span class="fa fa-code"></span>
+                                   <span>Directives</span>
+                                   <span class="fa fa-angle-up"></span>
+                               </div>
+                               <ul class="links collapse in"
+                                       id="directives-links"
+                   >
+                                       <li class="link">
+                                           <a href="./directives/SampleDirective.html" >SampleDirective</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#injectables-links"
+                   >
+                                   <span class="fa fa-long-arrow-down"></span>
+                                   <span>Injectables</span>
+                                   <span class="fa fa-angle-up"></span>
+                               </div>
+                               <ul class="links collapse in"
+                                       id="injectables-links"
+                   >
+                                       <li class="link">
+                                           <a href="./injectables/SamplePipe.html" >SamplePipe</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/SamplePipe.html" >SamplePipe</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/SampleService.html" >SampleService</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./miscellaneous.html" ><span class="fa fa-cubes"></span>Miscellaneous</a>
+                           </li>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content readme">
+                   <div class="content-data">
+<h1 id="example-library-with-angular-5-angular-cli-playground">Example library with Angular 5 + Angular CLI playground</h1>
+<blockquote>
+<h3 id="base-project-made-with-much-heart-contains-example-library-playground-demo-tests-etc-">Base project made with much  :heart: . Contains example library, playground demo, tests etc.</h3>
+</blockquote>
+<p><a href="https://github.com/ismaestro/angular-example-library/fork"><img src="https://img.shields.io/github/forks/ismaestro/angular-example-library.svg?style=social&amp;label=Fork" alt="GitHub forks" class="img-responsive"></a>
+<a href="https://github.com/ismaestro/angular-example-library"><img src="https://img.shields.io/github/stars/ismaestro/angular-example-library.svg?style=social&amp;label=Star" alt="GitHub stars" class="img-responsive"></a></p>
+<h2 id="features">Features</h2>
+<ul>
+<li>Sample component, service, directive and pipe</li>
+<li>Unit tests with Karma and Jasmine</li>
+<li>Playground with Angular CLI to test the library in a &#39;real application&#39;</li>
+<li>Linting</li>
+<li>Automatic versioning</li>
+<li>Documentation</li>
+</ul>
+<h2 id="usage">Usage</h2>
+<p><strong>Warning: we strongly recommend node &gt;=v6.9.0 and npm &gt;=3.0.0</strong></p>
+<p><code>npm i</code> - Installs project modules</p>
+<p><code>npm run install-all</code> - Installs project modules and playground modules</p>
+<p><code>npm run clean</code> - Removes every generated folder</p>
+<p><code>npm run build</code> - Builds the library using gulp</p>
+<p><code>npm run build:watch</code> - Builds the library using gulp waiting for changes</p>
+<p><code>npm run docs</code> - Generates all the documentation</p>
+<p><code>npm start</code> - Runs the playground and the build process waiting for changes</p>
+<p><code>npm run link</code> - Links the library folder in order to use it in the playground with npm link</p>
+<p><code>npm run test</code> - Runs the tests with karma and jasmine</p>
+<p><code>npm run test:watch</code> - Runs the tests with karma and jasmine waiting for changes</p>
+<p><code>npm run lint</code> - Runs the linter</p>
+<h2 id="modify-this-project-and-make-your-own-angular-library">Modify this project and make your own angular library</h2>
+<p>Just in three steps:</p>
+<ol>
+<li>Rename every occurrence of &#39;angular-example-library&#39; to &#39;your-library-name&#39;.</li>
+<li>Modify src folder according to your need.</li>
+<li><code>npm run build</code></li>
+</ol>
+<h2 id="release">Release</h2>
+<p>To release a new version of this library and publish it to npm, run:</p>
+<pre class="line-numbers"><code class="language-bash">$ npm run release</code></pre><p>Remember to login in npm. The script (release.sh) will publish your dist folder.</p>
+<h2 id="consuming-your-library">Consuming your library</h2>
+<p>Once you have published your library to npm, you can import your library in any Angular application by running:</p>
+<pre class="line-numbers"><code class="language-bash">$ npm install your-library-name</code></pre><p>and then from your Angular <code>AppModule</code>:</p>
+<pre class="line-numbers"><code class="language-typescript">import { BrowserModule } from &#39;&#64;angular/platform-browser&#39;;
+import { NgModule } from &#39;&#64;angular/core&#39;;
+import { AppComponent } from &#39;./app.component&#39;;
+
+// Import your library
+import { YourLibraryModule } from &#39;your-library-name&#39;;
+
+&#64;NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+
+    // Specify your library as an import
+    YourLibraryModule.forRoot()
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule {
+}</code></pre><p>Once your library is imported, you can use its components, directives and pipes in your Angular application.</p>
+<h2 id="contributing">Contributing</h2>
+<ul>
+<li>Please see the CONTRIBUTING file for guidelines.</li>
+<li>Create <strong>pull requests, submit bugs, suggest new features</strong> or documentation updates :wrench:</li>
+</ul>
+<h2 id="license">License</h2>
+<p>MIT</p>
+<p>Enjoy :metal:</p>
+<p>We are always happy to hear your feedback!</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="./js/libs/bootstrap-native.js"></script>
+
+       <script src="./js/libs/es6-shim.min.js"></script>
+       <script src="./js/libs/EventDispatcher.js"></script>
+       <script src="./js/libs/promise.min.js"></script>
+       <script src="./js/libs/zepto.min.js"></script>
+
+       <script src="./js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 0;</script>
+
+       <script src="./js/search/search.js"></script>
+       <script src="./js/search/lunr.min.js"></script>
+       <script src="./js/search/search-lunr.js"></script>
+
+       <script src="./js/tabs.js"></script>
+       <script src="./js/menu.js"></script>
+       <script src="./js/libs/prism.js"></script>
+       <script src="./js/sourceCode.js"></script>
+       <script src="./js/search/search_index.js"></script>
+
+    </body>
+</html>

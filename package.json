@@ -8,7 +8,7 @@
     "build": "gulp build",
     "build:watch": "gulp",
     "docs": "npm run docs:build",
-    "docs:build": "compodoc -p tsconfig.json -n angular-example-library -d docs --hideGenerator",
+    "docs:build": "compodoc -p tsconfig.docs.json -n angular-example-library -d docs --hideGenerator",
     "docs:serve": "npm run docs:build -- -s",
     "docs:watch": "npm run docs:build -- -s -w",
     "link": "cd dist; npm link; cd ../playground; npm link angular-example-library;",
