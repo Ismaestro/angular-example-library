@@ -14,7 +14,7 @@ src/**/*.d.ts
 *.iml
 
 # VS Code
-.vscode/*
+.vscode
 
 # Windows
 Thumbs.db
