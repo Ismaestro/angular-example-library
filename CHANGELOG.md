@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/Ismaestro/angular5-example-app/compare/v1.1.0...v1.1.1) (2018-01-13)
+
+
+### Features
+
+* **date:** updated the format in sample component ([e79bfab](https://github.com/Ismaestro/angular5-example-app/commit/e79bfab))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/Ismaestro/angular5-example-app/compare/v1.0.2...v1.1.0) (2018-01-13)
 
