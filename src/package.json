@@ -1,11 +1,15 @@
 {
   "name": "angular-example-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/Ismaestro/angular5-example-app.git"
   },
-  "keywords": ["angular","example","library"],
+  "keywords": [
+    "angular",
+    "example",
+    "library"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Ismaestro/angular5-example-app/issues"
