@@ -6,7 +6,11 @@ import {AppComponent} from './app.component';
 @NgModule({
   imports: [
     BrowserModule,
-    SampleModule.forRoot()
+    SampleModule.forRoot({
+      config: {
+        say: 'hello'
+      }
+    })
   ],
   declarations: [AppComponent],
   providers: [],

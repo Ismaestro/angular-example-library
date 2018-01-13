@@ -38,7 +38,7 @@ export function initialize(options: any) {
   ]
 })
 export class SampleModule {
-  static forRoot(options: SampleModuleOptions): ModuleWithProviders {
+  static forRoot(options?: SampleModuleOptions): ModuleWithProviders {
     return {
       ngModule: SampleModule,
       providers: [
