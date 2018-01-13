@@ -33,6 +33,8 @@
 
 `npm run link` - Links the library folder in order to use it in the playground with npm link
 
+`npm run playground` - Runs the playground (maybe you have to use sudo or have permissions)
+
 `npm run test` - Runs the tests with karma and jasmine
 
 `npm run test:watch` - Runs the tests with karma and jasmine waiting for changes
