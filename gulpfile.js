@@ -78,7 +78,8 @@ gulp.task('rollup:fesm', function () {
       // See "external" in https://rollupjs.org/#core-functionality
       external: [
         '@angular/core',
-        '@angular/common'
+        '@angular/common',
+        'moment'
       ],
 
       // Format of generated bundle
@@ -112,6 +113,7 @@ gulp.task('rollup:umd', function () {
       external: [
         '@angular/core',
         '@angular/common',
+        'moment'
       ],
 
       // Format of generated bundle
@@ -132,6 +134,7 @@ gulp.task('rollup:umd', function () {
         typescript: 'ts',
         '@angular/core': 'core',
         '@angular/common': 'common',
+        'moment': 'moment'
       }
     }))
     .pipe(rename('angular-example-library.umd.js'))

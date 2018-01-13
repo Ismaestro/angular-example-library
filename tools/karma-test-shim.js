@@ -73,7 +73,8 @@ System.config({
     '@angular/router/testing': 'npm:@angular/router/bundles/router-testing.umd.js',
     '@angular/forms/testing': 'npm:@angular/forms/bundles/forms-testing.umd.js',
     'rxjs': 'npm:rxjs',
-    'src': 'src'
+    'src': 'src',
+    'moment': 'npm:moment/min/moment-with-locales.js'
   }
 });
 

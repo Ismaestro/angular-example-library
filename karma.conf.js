@@ -51,6 +51,8 @@ module.exports = function (config) {
       { pattern: 'node_modules/@angular/**/*.js', included: false, watched: false },
       { pattern: 'node_modules/@angular/**/*.js.map', included: false, watched: false },
 
+      { pattern: 'node_modules/moment/min/moment-with-locales.js', included: false, watched: false },
+
       { pattern: 'tools/systemjs-angular-loader.js', included: false, watched: false },
 
       'tools/karma-test-shim.js', // optionally extend SystemJS mapping e.g., with barrels

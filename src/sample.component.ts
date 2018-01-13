@@ -1,12 +1,18 @@
-import { Component } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import * as moment_ from 'moment';
+
+const moment = moment_;
 
 @Component({
   selector: 'sample-component',
-  template: `<h1>Sample component</h1>`
+  template: `<span>{{date}}</span>`
 })
-export class SampleComponent {
+export class SampleComponent implements OnInit {
+  @Input() locale: string;
 
-  constructor() {
+  date: string;
+
+  ngOnInit() {
+    this.date = moment().locale(this.locale).format('MMM DD h:mm A');
   }
-
 }
