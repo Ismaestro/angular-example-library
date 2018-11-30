@@ -120,8 +120,6 @@ Have a bug or a feature request? Please first read the [issue guidelines](https:
 
 <a href='https://ko-fi.com/S6S5LMVR' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
-This website has an app which is available in [Google Play](https://play.google.com/store/apps/details?id=peluqueria.pilar.silvan)
-
 ## Copyright and license
 
 Code and documentation copyright 2011-2018 the authors. Code released under the [MIT License](https://github.com/Ismaestro/angular-example-library/blob/master/LICENSE).
