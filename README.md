@@ -2,13 +2,15 @@
   <h1 align="center">Example library with Angular 5 + Angular CLI playground</h1>
 
   <p align="center">
-    **Deprecated** This project is no longer maintained. If you want to create an angular library, check [this](https://github.com/angular/angular-cli/wiki/stories-create-library).
+    Angular example library that can serve as base project if you want to build your own library 
     <br>
     <a href="https://github.com/Ismaestro/angular-example-library/issues/new?template=bug.md">Report bug</a>
     ·
     <a href="https://github.com/Ismaestro/angular-example-library/issues/new?template=feature.md&labels=feature">Request feature</a>
   </p>
 </p>
+
+**Deprecated** This project is no longer maintained. If you want to create an angular library, check [this](https://github.com/angular/angular-cli/wiki/stories-create-library).
 
 ## Table of contents
 
